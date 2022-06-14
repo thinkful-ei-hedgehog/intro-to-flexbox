@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>MySite</h1>
@@ -21,33 +23,83 @@
         </nav>
     </header>
     <main>
+        <form>
+            <label for="user-name">Your name:</label>
+            <input id="user-name" type="text" name="name">
+            <label for="email">Your email:</label>
+            <input id="email" type="email" name="email">
+
+            <div>
+                <input name="color" type="radio" value="red">
+                <label for="red">Red</label>
+            </div>
+            <div>
+                <input name="color" type="radio" value="blue">
+                <label for="blue">Blue</label>
+            </div>
+            <div>
+                <input name="colors" type="radio" value="white">
+                <label for="white">White</label>
+            </div>
+            <div>
+                <input name="scales" type="checkbox" id="scales" checked>
+                <label for="scales">Scales</label>
+            </div>
+            <div>
+                <input name="horns" type="checkbox" id="horns">
+                <label for="horns">Horns</label>
+            </div>
+            <div>
+                <input name="wings" type="checkbox" id="wings">
+                <label for="wings">Wings</label>
+            </div>
+
+
+            <select name="fonts">
+                <option value="arial">Arial</option>
+                <option value="times">Times New Roman</option>
+                <option value="comicsans">Comic Sans</option>
+                <option value="papyrus">Papyrus</option>
+            </select>
+            <label for="phonenum">Phone #:</label>
+    <input id="phonenum" type="text" name="phone"
+     pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="xxx-xxx-xxxx"/>
+            <button type="submit">Submit Form</button>
+        </form>
         <section id="home">
             <h2>Home</h2>
             <img src="https://picsum.photos/seed/picsum/200/300" alt="" srcset="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia placeat repudiandae, illo est sunt esse voluptas illum laborum et impedit. Vel, eos? Ex reprehenderit cupiditate nesciunt maiores quasi animi eaque.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates eaque odio. Veritatis quod alias omnis quidem. Quibusdam, accusantium! Quis explicabo quod iusto accusantium optio illum nulla aperiam est voluptate!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia placeat repudiandae, illo est sunt esse
+                voluptas illum laborum et impedit. Vel, eos? Ex reprehenderit cupiditate nesciunt maiores quasi animi
+                eaque.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates eaque odio. Veritatis quod
+                alias omnis quidem. Quibusdam, accusantium! Quis explicabo quod iusto accusantium optio illum nulla
+                aperiam est voluptate!</p>
         </section>
         <section id="about">
             <h2>About</h2>
             <img src="https://picsum.photos/seed/picsum/200/300" alt="" srcset="">
-           
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia placeat repudiandae, illo est sunt esse voluptas illum laborum et impedit. Vel, eos? Ex reprehenderit cupiditate nesciunt maiores quasi animi eaque.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates eaque odio. Veritatis quod alias omnis quidem. Quibusdam, accusantium! Quis explicabo quod iusto accusantium optio illum nulla aperiam est voluptate!</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia placeat repudiandae, illo est sunt esse
+                voluptas illum laborum et impedit. Vel, eos? Ex reprehenderit cupiditate nesciunt maiores quasi animi
+                eaque.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates eaque odio. Veritatis quod
+                alias omnis quidem. Quibusdam, accusantium! Quis explicabo quod iusto accusantium optio illum nulla
+                aperiam est voluptate!</p>
         </section>
         <section id="portfolio">
             <h2>Portfolio</h2>
             <img src="https://picsum.photos/seed/picsum/200/300" alt="" srcset="">
-           
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia placeat repudiandae, illo est sunt esse voluptas illum laborum et impedit. Vel, eos? Ex reprehenderit cupiditate nesciunt maiores quasi animi eaque.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates eaque odio. Veritatis quod alias omnis quidem. Quibusdam, accusantium! Quis explicabo quod iusto accusantium optio illum nulla aperiam est voluptate!</p>
+
+
         </section>
         <section id="contact">
             <h2>Contact</h2>
             <img src="https://picsum.photos/seed/picsum/200/300" alt="" srcset="">
-           
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia placeat repudiandae, illo est sunt esse voluptas illum laborum et impedit. Vel, eos? Ex reprehenderit cupiditate nesciunt maiores quasi animi eaque.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates eaque odio. Veritatis quod alias omnis quidem. Quibusdam, accusantium! Quis explicabo quod iusto accusantium optio illum nulla aperiam est voluptate!</p>
+
+            
         </section>
     </main>
 </body>
+
 </html>
